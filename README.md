@@ -22,6 +22,9 @@ To start, you'll want to clone and run the setup script for the repo
     git clone git@github.com:thoughtbot-upcase-exercises/testing-fundamentals-testing-activerecord.git
     cd testing-fundamentals-testing-activerecord
     bin/setup
+    you will encounter this error
+    An error occurred while installing json (1.8.1), and Bundler cannot continue.Make sure that `gem install json -v '1.8.1' --source 'https://rubygems.org/'` succeeds before bundling.
+    run and then re run bin/setup
 
 1. Edit `spec/models/person_spec.rb`.
 2. Write a spec to ensure that the model is invalid without a `first_name`.
